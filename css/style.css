@@ -1,0 +1,122 @@
+@font-face {
+    font-family: ninomtavruli;
+    src: url(../font/bpg_nino_mtavruli_normal.ttf);
+}
+
+
+body{
+    background-color: white;
+    font-family: ninomtavruli !important;
+}
+
+#Navbar{
+ background-color: #000;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.Navbar_Item > li > a{
+    color:white !important;
+}
+
+.NavbarSliderBar{
+    position: absolute;
+    top: 150px;  
+    left: 300px; 
+    z-index:1;
+    font-size:34px;
+    color:white;
+    font-weight:bold;
+}
+
+.f-34{
+    font-size:34px;
+}
+
+.f-24
+{
+    font-size: 24px;
+}
+
+.card-course{
+    background-color: #000;
+    border:1px solid white;
+    cursor:pointer;
+    height:416px;
+}
+
+.course-detail{
+    background:transparent;
+    border:none !important;
+    color:0,163,224;
+    position: absolute;
+    left:10px;
+    bottom:20px;
+}
+
+.course-detail:hover{
+    background:transparent;
+    border:none !important;
+    color:#096d92;
+}
+
+.lesson-course-panel > .col-lg-12 > .container > .row >  .col-lg-4
+{
+    margin-top:30px;
+}
+
+.grey-container{
+    background: rgb(43, 43, 43);
+}
+
+.black-container{
+    background: rgb(22, 22, 22);
+}
+
+.accordion-button:not(.collapsed)
+{
+    color: white !important;
+    background-color: black;
+    border:none !important;
+    font: 18px;
+}
+
+.accordion-button
+{
+    color: white !important;
+    background-color: black;
+    border:none !important;
+    font: 18px;
+    height:80px;
+}
+
+.accordion-body{
+    background: black;
+    color:white !important;
+}
+
+.tbc-color{
+    color:#096d92;
+}
+
+.tbc-color-bg{
+    background-color:#096d92;
+}
+
+.accordion-item{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    background:rgb(22, 22, 22) !important;
+}
+
+.accordion-button:not(.collapsed)::after{
+    color: white !important;
+}
+
+.cover-img{
+    width: 1903px;
+    height: 352px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
